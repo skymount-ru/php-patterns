@@ -1,0 +1,20 @@
+{
+    "name": "skymount-ru/php-patterns",
+    "description": "A set of classic PHP interfaces.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Vikharev",
+            "email": "idexdv@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skymount\\PhpPatterns\\": "./src/Skymount/PhpPatterns"
+        }
+    }
+}
